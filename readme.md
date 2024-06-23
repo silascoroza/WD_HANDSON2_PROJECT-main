@@ -95,7 +95,7 @@ Sidebar Navigation: A user-friendly sidebar allowing seamless navigation between
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-HANDSON2_project-main
 └─ assets
 |   └─ css
 |   |   └─ style.css
