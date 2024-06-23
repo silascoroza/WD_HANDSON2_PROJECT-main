@@ -129,3 +129,4 @@ WD-HANDSON2_project-main
 |Font Awesome| Some Icons | https://fontawesome.com/icons|
 
 ## Deployment Link
+|https://silascoroza.github.io/WD_HANDSON2_PROJECT-main/|
