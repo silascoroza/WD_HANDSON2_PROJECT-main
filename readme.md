@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hero & Cards</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Welcome to "Heroic Cards: A World of Adventure"! Here, you'll discover a realm where heroes and cards intertwine to ignite your imagination. With a collection boasting 5 static heroes and 5 static cards, alongside an additional 5 animated cards, there's no shortage of excitement. Navigate effortlessly through our user-friendly sidebar, offering easy access to our dynamic home page, individual hero showcases, and our mesmerizing card gallery. Each hero embodies its own unique tale of bravery and valor, while our meticulously crafted static and animated cards promise to transport you to worlds beyond imagination. Whether you're a seasoned enthusiast or a curious newcomer, our website offers an immersive experience for all. Embark on a journey filled with adventure and discovery as you explore the captivating world of "Heroic Cards" today!
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+<!-- TODO: Change the zyx-0314 into your github username  --> silas coroza
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+(https://github.com/silascoroza/WD_HANDSON2_PROJECT-main)
 
 ---
 
@@ -60,17 +60,22 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project: My project is all about Hero and Cards where you can see different design and animations.
+- Whats the purpose: My project is an immersive online showcase featuring a rich assortment of hero and card designs, accompanied by captivating animations. Through a seamless interface, users can easily explore static and animated representations of heroes and cards, delving into the creative depths of each design. Designed to inspire and entertain, my project offers a dynamic platform for enthusiasts to immerse themselves in the world of hero and card artistry.
+- What are key components:
+Hero Designs: A collection of static representations of heroes, each embodying unique traits and characteristics.
+Card Designs: Static and animated card designs, meticulously crafted to captivate and entertain users.
+Sidebar Navigation: A user-friendly sidebar allowing seamless navigation between the home page, individual hero showcases, and the card gallery.
+- What technology used and how it is used:
+HTML: Used for structuring the content of the website, including headings, paragraphs, images, and links.
+CSS: Utilized to style the HTML elements, controlling the layout, colors, fonts, and overall visual presentation of the website.
+Animation Libraries: to create smooth and engaging animations for the animated card designs.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Hero Designs: A collection of static representations of heroes, each embodying unique traits and characteristics and there is an options of heroes 1 to 5.
+Card Designs: Static and animated card designs, meticulously crafted to captivate and entertain users.
+Sidebar Navigation: A user-friendly sidebar allowing seamless navigation between the home page, individual hero showcases, and the card gallery.
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +122,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Hero & Cards | The purpose of the website is to provide an immersive and engaging platform for users to explore and appreciate various designs and animations related to heroes and cards. It aims to inspire creativity, entertain users, and foster a sense of wonder and fascination with the captivating world of hero and card artistry. Additionally, the website serves as a showcase for artists and enthusiasts to share their talents and creations with a wider audience, fostering a community of like-minded individuals passionate about heroes and cards.|  |
