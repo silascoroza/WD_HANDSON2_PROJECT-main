@@ -126,3 +126,6 @@ WD-HANDSON2_project-main
 | Pinterest | Source of Image | https://ph.pinterest.com/pin/289497082312567956/ |
 | CSS Flexbox Responsive Cards frontend Simplified Web Design Tutorial | Card Idea | https://www.youtube.com/watch?v=0m5e1V7g8kM |
 |Personal Portfolio Website using HTML & CSS| Hero Ideas | https://www.youtube.com/watch?v=RroDdybvu5s&t=395s|
+|Font Awesome| Some Icons | https://fontawesome.com/icons|
+
+## Deployment Link
