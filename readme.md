@@ -122,4 +122,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Hero & Cards | The purpose of the website is to provide an immersive and engaging platform for users to explore and appreciate various designs and animations related to heroes and cards. It aims to inspire creativity, entertain users, and foster a sense of wonder and fascination with the captivating world of hero and card artistry. Additionally, the website serves as a showcase for artists and enthusiasts to share their talents and creations with a wider audience, fostering a community of like-minded individuals passionate about heroes and cards.|  |
+| Responsive Sidebar Menu in HTML CSS & JavaScript | Sidebar Design | https://www.youtube.com/watch?v=bFvfqUMjvsA&list=PLImJ3umGjxdCjoBGj1eGQwcopR0P0edAK |
+| Pinterest | Source of Image | https://ph.pinterest.com/pin/289497082312567956/ |
+| CSS Flexbox Responsive Cards frontend Simplified Web Design Tutorial | Card Idea | https://www.youtube.com/watch?v=0m5e1V7g8kM |
+|Personal Portfolio Website using HTML & CSS| Hero Ideas | https://www.youtube.com/watch?v=RroDdybvu5s&t=395s|
