@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(/assets/img/backgg.jpeg);
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: #82acef;
+    padding: 25px 20px;
+    transition: all 0.4s ease;
+
+}
+.sidebar:hover {
+    width: 260px;
+}
+.sidebar-header{
+    display: flex;
+    align-items: center;
+}
+.sidebar-header img{
+    width: 42px;
+    border-radius: 50%;
+
+}
+.sidebar-header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.sidebar-links {
+    list-style: none;
+    margin-top: 20px;
+    height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.sidebar:hover .siderbar-links h4 span {
+    opacity: 0;
+}
+.sidebar:hover .sidebar-links h4 span {
+    opacity: 1;
+}
+
+.sidebar-links h4 {
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.siderbar-links .hero-seperator {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(1);
+    transform: translateY(-50%); 
+    background: #333578;
+
+}
+
+.sidebar-links li a{
+    color: #294dbb;
+    display: flex;
+    align-items: center; 
+    gap: 0 20px;
+    font-weight: 500;
+    padding: 15px 10px;
+    white-space: nowrap;
+    text-decoration: none;
+
+
+}
+.sidebar-links li a:hover {
+    background: #ffffff2d;
+    color: #fff;
+    border-radius: 4px;
+}
+.top h3 {
+    align-items: first baseline;
+    color: #ebca0b;
+    padding-left: 26.5rem;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+}
+.activity {
+    font-size: 2rem;
+    margin-left: 40rem;
+    margin-top: 2rem;
+    color: #ebca0b;
+}
+.top .description {
+    color: wheat;
+    font-size: 15px;
+    text-align: justify;  
+    margin-top: 2rem;  
+    width: 25rem;
+    margin-left: 34rem;
+}

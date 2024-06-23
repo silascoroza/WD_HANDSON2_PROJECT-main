@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000vh;
+    background-image: url(/pages/card-gallery/assets/img/backgrounds.jpeg) ;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: #111112f0;
+    padding: 25px 20px;
+    transition: all 0.4s ease;
+
+}
+.sidebar:hover {
+    width: 260px;
+}
+.sidebar-header{
+    display: flex;
+    align-items: center;
+}
+.sidebar-header img{
+    width: 42px;
+    border-radius: 50%;
+
+}
+.sidebar-header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.sidebar-links {
+    list-style: none;
+    margin-top: 20px;
+    height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.sidebar:hover .siderbar-links h4 span {
+    opacity: 0;
+}
+.sidebar:hover .sidebar-links h4 span {
+    opacity: 1;
+}
+
+.sidebar-links h4 {
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.siderbar-links .hero-seperator {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(1);
+    transform: translateY(-50%); 
+    background: #333578;
+
+}
+
+.sidebar-links li a{
+    color: #294dbb;
+    display: flex;
+    align-items: center; 
+    gap: 0 20px;
+    font-weight: 500;
+    padding: 15px 10px;
+    white-space: nowrap;
+    text-decoration: none;
+
+
+}
+.sidebar-links li a:hover {
+    background: #ffffff2d;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.card1 {
+    padding: 1.5rem;
+    position: absolute;
+    top: 12rem;
+    left: 26.5rem;
+    width: 40rem;
+    height: 20rem;
+    background: rgba(245, 177, 4, 0.945);
+    box-shadow: 0 2px 30px rgba(0, 0, 1, 0.200);
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px solid rgba(245, 245, 245, 0.212);
+    color: white;
+.card-img {
+        position: absolute;
+        height: auto;
+        width: 35rem;
+        right: -10rem;
+        top: 1rem;
+    }
+
+.title {
+    padding: 1rem 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-bottom: 1px rgb(18, 15, 15) solid;
+    border-top: .75px rgb(18, 15, 15) solid;
+    width: fit-content;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+ }
+
+.description {
+        color: black;
+        padding: 1rem 0;
+        width: 55%;
+        font-size: 1rem;
+        text-align: start;
+}
+
+    }

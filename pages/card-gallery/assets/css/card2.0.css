@@ -1,0 +1,114 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: Start slightly below and animate upwards */
+    }
+    to {
+        opacity: 3;
+        transform: translateY(0); /* Optional: End at the original position */
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0) ; /* Start and end position */
+    }
+    50% {
+        transform: translateY(-50px) ; /* Bounce up */
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card2-2 {
+    position: absolute;
+    padding: 1.5rem;
+    width: 26rem;
+    height: 26rem;
+    background: #2acd0965;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+    border: 10px solid rgba(245, 245, 245, 0.212);
+    color: rgb(255, 255, 255);
+    top: 105rem;
+    left: -20rem;
+
+    
+
+.card-img2-2 {
+        position: absolute;
+        -webkit-box-shadow: 8px 15.5px 4.5px -0px #dddddd;
+        -moz-box-shadow: 10px 15.5px 4.5px -1px #dddddd;
+        box-shadow: 10px 15.5px 4.5px -1px #0e0d0d50;      
+        background: rgba(5, 100, 15, 0.282);
+        height:14rem;
+        width: auto;
+        right: 5.5rem;
+        top: .5rem;
+        animation: bounce 2s infinite; /* Apply bounce animation */
+
+        
+    }
+
+.title {
+        color: black;
+        padding: .5rem 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        margin-left: 3.5rem;
+        margin-top: 14rem;
+        border-top: 1px rgb(18, 15, 15) ;
+        border-bottom: 1px rgb(27, 9, 9) ;
+        width: fit-content;
+        font-weight: bolder;
+        
+}
+    }
+
+.dot-container {
+        display: flex;
+        justify-content: space-between;
+        width: 60px; 
+        margin-left: 8.5rem;
+        margin-top: -4.5rem;
+    }
+    
+.dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    
+.dot-light {
+        background-color: #ccc; /* Lightest color */
+    }
+    
+.dot-medium {
+        background-color: #888; /* Medium color */
+    }
+    
+.dot-bold {
+        background-color: #333; /* Boldest color */
+    }
+    .php2 {
+        margin-top: 2rem;
+        margin-left: 6rem;
+        color: black;
+        background-color: #4CAF50; /* Green background */
+        color: white; /* White text */
+        border: none; /* No border */
+        padding: 15px 32px; /* Padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline-block display */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        border-radius: 12px;
+        opacity: 1; /* Initially hide the container */
+        animation: fadeIn 1s forwards infinite; /* Apply fade-in animation */
+    }

@@ -1,0 +1,87 @@
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(90deg);
+    }
+}
+@keyframes glitch {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(4px);
+    }
+    50% {
+        transform: translateX(-2px);
+    }
+    75% {
+        transform: translateX(6px);
+    }
+    100% {
+        transform: translateX(-3px);
+    }
+}
+@keyframes anim-div {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.card1-1 {
+    padding: 1.5rem;
+    position: absolute;
+    top: 80rem;
+    left: -7rem;
+    width: 40rem;
+    height: 20rem;
+    background: rgba(245, 177, 4, 0.945);
+    box-shadow: 0 2px 30px rgba(0, 0, 1, 0.200);
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px solid rgba(245, 245, 245, 0.212);
+    color: white;
+    overflow: hidden; /* Ensure the image stays within the container during animation */
+    border-radius: 10px; /* Optional: Adds rounded corners to the container */
+.card-img1 {
+        position: absolute;
+        height: auto;
+        width: 35rem;
+        right: -9rem;
+        top: -.5rem;
+        height: auto;
+        cursor: pointer;
+        animation: 4s infinite anim-div;
+    }
+    .card-img1:hover {
+        animation: zoomIn 0.5s forwards;
+        cursor: pointer;
+    }
+
+.title {
+    padding: 1rem 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-bottom: 1px rgb(18, 15, 15) solid;
+    border-top: .75px rgb(18, 15, 15) solid;
+    width: fit-content;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+    animation: glitch 0.5s infinite alternate-reverse; /* Glitch animation applied to text */
+ }
+
+.description {
+        color: black;
+        padding: 1rem 0;
+        width: 55%;
+        font-size: 1rem;
+        text-align: start;
+}
+
+    }
+    

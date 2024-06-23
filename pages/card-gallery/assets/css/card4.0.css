@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+& .card4-4 {
+    padding: 1.5rem;
+    position: absolute;
+    width: 20rem;
+    height: 21rem;
+    background: #b6ccf6;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+    border: 10px solid rgba(245, 245, 245, 0.212);
+    color: rgb(255, 255, 255);
+    top: 25rem;
+    left: -12rem;
+    overflow: hidden; /* Ensure image doesn't overflow outside the container */
+}
+
+    & .card-img4-4 {
+        position: absolute;
+        height: 13rem;
+        width: fit-content;
+        right: 3.5rem;
+        top: 1rem;
+        animation: slideRight 2s linear infinite; /* Apply sliding animation */
+    }
+
+    & .title4 {
+        color: black;
+        padding: .5rem 0;
+        width: fit-content;
+        bottom: 2rem;
+        left: 3rem;
+        font-weight: bolder;
+        letter-spacing: .1rem;
+    }
+
+    .more-info-button4 {
+        background-color: #3498dbff; /* Button color */
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1em;
+        margin-top: 10rem;
+        margin-left: 4.5rem;
+        transition: background-color 0.3s;
+}
+
+.card4-4 i {
+    margin-top: -2rem;
+    left: 2rem;
+}
+.btn {
+    top: -2rem;
+    right: 20rem;
+}
+.class {
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+.class .btn{
+    color: rgba(1, 1, 9, 0.596);
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    100% {
+        transform: translateX(100%); /* End position */
+    }
+}

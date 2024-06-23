@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+& .card4 {
+    padding: 1.5rem;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: #b6ccf6;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+    border: 10px solid rgba(245, 245, 245, 0.212);
+    color: rgb(255, 255, 255);
+    top: 25rem;
+    left: -12rem;
+}
+
+    & .card-img4 {
+        position: absolute;
+        height: 13rem;
+        width: fit-content;
+        right: 3.5rem;
+        top: 1rem;
+    }
+
+    & .title {
+        color: black;
+        padding: .5rem 0;
+        width: fit-content;
+        bottom: 2rem;
+        left: rem;
+        font-weight: bolder;
+        letter-spacing: .1rem;
+    }
+
+    & .description {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 1rem 0;
+        width: 60%;
+        font-size: 1rem;
+        text-align: justify;
+        text-justify: inter-word;
+        filter: invert(1);
+    }
+    .more-info-button {
+        background-color: #3498db; /* Button color */
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1em;
+        transition: background-color 0.3s;
+}

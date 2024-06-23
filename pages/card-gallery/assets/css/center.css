@@ -1,0 +1,8 @@
+.center-title {
+    background-image: url(/pages/card-gallery/assets/img/cardgallery.png);
+    position: absolute;
+    top: 1rem;
+    left: 24rem;
+    overflow-x: hidden;
+    display: flex;
+}

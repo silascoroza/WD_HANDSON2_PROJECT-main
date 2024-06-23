@@ -1,0 +1,8 @@
+.design3 {
+    background-image: url(/pages/card-gallery/assets/img/design3.png);
+    position: absolute;
+    top: 67rem;
+    left: 37rem;
+    overflow-x: hidden;
+    display: flex;
+}

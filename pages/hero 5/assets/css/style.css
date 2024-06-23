@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(/assets/img/destroy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background: #03362c8c;
+    padding: 25px 20px;
+    transition: all 0.4s ease;
+
+}
+.sidebar:hover {
+    width: 260px;
+}
+.sidebar-header{
+    display: flex;
+    align-items: center;
+}
+.sidebar-header img{
+    width: 42px;
+    border-radius: 50%;
+
+}
+.sidebar-header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.sidebar-links {
+    list-style: none;
+    margin-top: 20px;
+    height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.sidebar:hover .siderbar-links h4 span {
+    opacity: 0;
+}
+.sidebar:hover .sidebar-links h4 span {
+    opacity: 1;
+}
+
+.sidebar-links h4 {
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.siderbar-links .hero-seperator {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(1);
+    transform: translateY(-50%); 
+    background: #333578;
+
+}
+
+.sidebar-links li a{
+    color: #efefef;
+    display: flex;
+    align-items: center; 
+    gap: 0 20px;
+    font-weight: 500;
+    padding: 15px 10px;
+    white-space: nowrap;
+    text-decoration: none;
+
+
+}
+.sidebar-links li a:hover {
+    background: #ffffff2d;
+    color: #fff;
+    border-radius: 4px;
+}
+.top h3 {
+    align-items: first baseline;
+    color: #f5f3eb;
+    padding-left: 26.5rem;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+}
+
+.container {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding: 7rem;
+}
+
+.header{
+    height: 100vh;
+    background: url(/pages/hero\ 4/assets/img/street.jpeg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+body {
+    margin: 10;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-color: #f0f0f0;
+}
+
+.Home {
+    background: position 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 50rem;
+    height: 30rem;
+    margin-top: 20rem;
+    max-width: 100%;
+}
+
+.home-content {
+    margin-bottom: 20px; 
+}
+
+.home-content h1 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 1000;
+    color: #0a0a0a;
+}
+.name {
+    position: fixed;
+    width: 30rem;
+    top: 2rem;
+    left: 31rem;
+}
+.home-content p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.left-image {
+    position: fixed;
+    width: 35rem;
+    height: 45rem;
+    margin-left: 6rem;
+    margin-top: 10rem;
+}
+.title {
+    position: fixed;
+    font-size: 4rem;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20rem;
+    margin-left: 20rem;
+}
+.date {
+    position: fixed;
+    font-size: 1rem;
+    color: #efefef;
+    letter-spacing: .5rem;
+    white-space: nowrap;
+    margin-top: 25rem;
+    margin-left: 12rem;
+}

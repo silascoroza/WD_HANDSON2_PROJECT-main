@@ -1,0 +1,9 @@
+.lowcenter {
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 65rem;
+    left: -13rem;
+    width: 60rem;
+    overflow-x: hidden;
+    display: flex;
+}

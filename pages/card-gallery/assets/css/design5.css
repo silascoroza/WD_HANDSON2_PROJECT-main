@@ -1,0 +1,8 @@
+.design5 {
+    background-image: url(/pages/card-gallery/assets/img/design5.png);
+    position: absolute;
+    top: 92rem;
+    left: 60rem;
+    overflow-x: hidden;
+    display: flex;
+}
